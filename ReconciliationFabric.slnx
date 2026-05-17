@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ReconciliationFabric.API/ReconciliationFabric.API.csproj" />
+  <Project Path="ReconciliationFabric.Application/ReconciliationFabric.Application.csproj" />
+  <Project Path="ReconciliationFabric.Domain/ReconciliationFabric.Domain.csproj" />
+  <Project Path="ReconciliationFabric.Infrastructure/ReconciliationFabric.Infrastructure.csproj" />
+</Solution>

@@ -1,6 +1,0 @@
-@ReconciliationFabric_HostAddress = http://localhost:5282
-
-GET {{ReconciliationFabric_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
