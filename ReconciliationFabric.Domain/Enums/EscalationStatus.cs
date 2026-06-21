@@ -6,3 +6,4 @@ public enum EscalationStatus
     Closed,
     Rejected  // Operator determined it's not a real discrepancy
 }
+
