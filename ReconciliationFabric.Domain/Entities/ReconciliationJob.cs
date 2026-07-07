@@ -7,7 +7,6 @@ public class ReconciliationJob
         public Guid? SupersedesJobId {get; set;}
         public int Revision {get; set; }
         public ReconciliationJobType JobType{get; set;}
-        public 
 
 
     
