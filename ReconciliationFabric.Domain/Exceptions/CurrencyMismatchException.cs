@@ -1,6 +1,5 @@
 using System;
 
-namespace YourNamespace;
 
 public sealed class CurrencyMismatchException : Exception
 {
