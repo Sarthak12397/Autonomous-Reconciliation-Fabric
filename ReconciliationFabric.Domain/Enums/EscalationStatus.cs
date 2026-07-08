@@ -1,9 +1,9 @@
 public enum EscalationStatus
 {
-    Open,
-    InProgress,
-    Resolved,
-    Closed,
-    Rejected  // Operator determined it's not a real discrepancy
+    Open,         // created. not picked up.
+    Assigned,     // assigned. not started.
+    InProgress,   // operator investigating.
+    Resolved,     // operator fixed it.
+    Closed,       // resolved + signed off.  TERMINAL ✓
+    Rejected      // not real. dismissed.    TERMINAL.
 }
-

@@ -1,4 +1,4 @@
-public enum ResolutionStrategy
+public enum ResolutionStrategyType
 {
     AutoAdjustEntry,     // Create a correcting ledger entry
     CreateMissingRecord, // Create the missing internal record

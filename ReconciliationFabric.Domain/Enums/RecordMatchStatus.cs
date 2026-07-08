@@ -1,10 +1,12 @@
 public enum RecordMatchStatus
 {
-    Unprocessed,  // Not yet matched
-    Matched,      // Clean match, no discrepancy
-    Discrepant,   // Matched but values differ
-    UnmatchedInternal,  // Found in internal, not in external
-    UnmatchedExternal,  // Found in external, not in internal
-    Resolved,     // Was discrepant, now resolved
-    Escalated     // Sent to escalation, awaiting human action
+    Unprocessed,         // not yet processed.
+    Matched,             // both sides agree.                         TERMINAL ✓
+    PendingSettlement,   // near window boundary. may self-heal.
+                         // NOT escalated. re-evaluated next run.
+    Discrepant,          // found on both sides. values differ.
+    UnmatchedInternal,   // external has it. internal does not.
+    UnmatchedExternal,   // internal has it. external does not.
+    Resolved,            // fixed.                                    TERMINAL ✓
+    Escalated            // human queue.                              TERMINAL.
 }
