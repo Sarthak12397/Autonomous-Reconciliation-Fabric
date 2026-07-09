@@ -1,0 +1,22 @@
+public record ReconciliationJobDto(
+    Guid Id,
+    string IdempotencyKey,
+    string CorrelationId,
+    string? CausationId,
+    Guid? SupersedesJobId,
+    int Revision,
+    string JobType,
+    string Status,
+    DateTime WindowStart,
+    DateTime WindowEnd,
+    string SourceSystem,
+    string TargetSystem,
+    int TemporalBufferMinutes,
+    DateTime CreatedAt,
+    DateTime? StartedAt,
+    DateTime? CompletedAt,
+    int TotalRecordsProcessed,
+    int DiscrepanciesFound,
+    bool CircuitBreakerTripped,
+    string? FailureReason
+);
