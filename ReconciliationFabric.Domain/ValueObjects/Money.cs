@@ -1,6 +1,5 @@
 using System;
 
-namespace YourNamespace;
 
 public readonly record struct Money : IEquatable<Money>
 {

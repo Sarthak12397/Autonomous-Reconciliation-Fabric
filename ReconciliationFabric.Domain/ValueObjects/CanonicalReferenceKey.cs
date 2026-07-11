@@ -3,7 +3,6 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace YourNamespace;
 
 public sealed class CanonicalReferenceKey : IEquatable<CanonicalReferenceKey>
 {

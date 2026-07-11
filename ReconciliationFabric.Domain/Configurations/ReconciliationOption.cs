@@ -1,6 +1,5 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace YourNamespace.Configuration;
 
 public sealed class ReconciliationOptions
 {
